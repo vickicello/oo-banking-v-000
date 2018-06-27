@@ -13,7 +13,7 @@ class BankAccount
   end
 
   def deposit(money)
-    self << money
+    @balance << money
   end
 
   def display_balance
