@@ -10,5 +10,8 @@ class Transfer
     @@all << self
   end
 
+  def valid?
+  end
+  
 
 end
