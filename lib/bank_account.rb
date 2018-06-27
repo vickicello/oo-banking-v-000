@@ -21,16 +21,7 @@ class BankAccount
   end
 
   def valid?
-    @broke = BankAccount.new(name)
-    @broke.balance = 0
-    @closed = BankAccount.new("Beth Behrs")
-    @closed.status = "closed"
-    expect(avi.valid?).to eq(true)
-    if @status = "open" && @balance > 0
-      true
-    else
-      false
-    end
+    @status == "open" && @balance > 0 ? true : false
   end
 
   def close_account
