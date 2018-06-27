@@ -12,7 +12,8 @@ class BankAccount
     @@all << self
   end
 
-  def deposit
+  def deposit(money)
+    self << money
   end
 
   def display_balance
