@@ -10,5 +10,5 @@ class Transfer
     @@all << self
   end
 
-  
+
 end
