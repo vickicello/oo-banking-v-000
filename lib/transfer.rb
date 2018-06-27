@@ -1,5 +1,7 @@
 class Transfer
 
+  attr_accessor :sender, :receiver, :status, :transfer_amount
+
   @@all = []
 
   def initialize(sender)
@@ -12,6 +14,6 @@ class Transfer
 
   def valid?
   end
-  
+
 
 end
